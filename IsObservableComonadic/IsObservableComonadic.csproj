@@ -53,9 +53,13 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="LICENSE" />
+    <None Include="..\LICENSE">
+      <Link>LICENSE</Link>
+    </None>
+    <None Include="..\README">
+      <Link>README</Link>
+    </None>
     <None Include="packages.config" />
-    <None Include="README" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
