@@ -1,0 +1,2 @@
+%SYSTEMROOT%\Microsoft.NET\Framework\v4.0.30319\msbuild.exe IsObservableComonadic.sln /p:Configuration=Debug %*
+packages\NUnit.2.5.10.11092\tools\nunit-console.exe IsObservableComonadic\bin\Debug\IsObservableComonadic.dll
