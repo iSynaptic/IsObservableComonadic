@@ -1,4 +1,1 @@
-Compiled versions are available via NuGet:
-
-http://nuget.org/List/Packages/iSynaptic.Commons
-http://nuget.org/List/Packages/iSynaptic.Commons.Data
+Unit test project to determine if Reactive Extensions' ManySelect (Extend) and First (Extract) methods adhere to the comonadic laws.
